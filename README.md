@@ -1,2 +1,1 @@
-# YOLOV8
-This is a number plate detection project using YOLOV8 model.
+This project implements an Automatic Number Plate Recognition (ANPR) system using YOLOv8 for detecting vehicle number plates and EasyOCR for extracting the text. Detected plates are overlaid on video frames and stored in a SQLite database along with the timestamp, frame ID, confidence score, and bounding box coordinates. The system can process both videos and image datasets, providing a fast and accurate solution for vehicle plate detection and recognition. All code, trained model weights, sample outputs, and database files are included for easy reproducibility.
